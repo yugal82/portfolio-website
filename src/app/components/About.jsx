@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import React, { useState } from 'react'
 import Tabs from './Tabs';
+import Skills from './Skills';
 
 const About = () => {
     const [tabIndex, setTabIndex] = useState(0);
@@ -19,7 +20,7 @@ const About = () => {
             <Tabs categories={['Skills', 'Education', 'Certifications']} getSelectedTabIndex={getSelectedTabIndex} />
             {
                 tabIndex === 0 ? (
-                    <div>Skills tab</div>
+                    <Skills />
                 ) : tabIndex === 1 ? (
                     <div>Education tab</div>
                 ) : (
