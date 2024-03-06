@@ -9,7 +9,7 @@ function classNames(...classes) {
 const Tabs = ({ categories, getSelectedTabIndex }) => {
 
     return (
-        <div className="w-full max-w-md px-2 py-8 sm:px-0">
+        <div className="w-full max-w-md mx-auto px-2 py-8 sm:px-0">
             <Tab.Group>
                 <Tab.List className="flex space-x-1 rounded-xl bg-blue-900/20 p-1">
                     {categories.map((category, index) => (
