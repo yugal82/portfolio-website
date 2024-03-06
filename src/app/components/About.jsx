@@ -3,13 +3,14 @@ import Image from 'next/image';
 import React, { useState } from 'react'
 import Tabs from './Tabs';
 import Skills from './Skills';
+import Certifications from './Certifications';
 
 const About = () => {
     const [tabIndex, setTabIndex] = useState(0);
     const getSelectedTabIndex = (index) => setTabIndex(index)
 
     return (
-        <div className='container mx-auto px-12 py-4 mt-12 md:mt-24'>
+        <div id='about' className='container mx-auto px-12 py-4 mt-12 md:mt-24'>
             <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4'>
                 <Image src='/images/about-image.jpg' width={500} height={500} className='rounded-2xl' />
                 <div className='mt-6'>
@@ -24,7 +25,7 @@ const About = () => {
                 ) : tabIndex === 1 ? (
                     <div>Education tab</div>
                 ) : (
-                    <div>Certifications tab</div>
+                    <Certifications />
                 )
             }
         </div>
