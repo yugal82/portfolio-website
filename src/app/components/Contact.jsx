@@ -7,9 +7,9 @@ import { TfiEmail } from "react-icons/tfi";
 const Contact = () => {
     return (
         <div id='contact' className='container mx-auto px-12 py-4 mt-12 w-full'>
-            <h2 className='w-full text-3xl font-semibold text-center'>Want to get in contact with me?</h2>
-            <div className='px-16 mt-4'>
-                <p className='text-xl text-[#adb7b3] text-center'>I am currently looking for new opportunities, my inbox is always open. Feel free to reach out to me directly through the below mentioned social media handles for any inquiries, collaborations, or just to say hello! I'm always eager to connect with fellow creatives, clients, and potential collaborators. Whether you have a question or just want to say Hi, I'll try my best to get back to you!</p>
+            <h2 className='w-full text-3xl font-semibold text-left md:text-center'>Want to get in contact with me?</h2>
+            <div className='px-4 md:px-16 mt-4'>
+                <p className='text-xl text-[#adb7b3] md:text-center'>I am currently looking for new opportunities, my inbox is always open. Feel free to reach out to me directly through the below mentioned social media handles for any inquiries, collaborations, or just to say hello! I'm always eager to connect with fellow creatives, clients, and potential collaborators. Whether you have a question or just want to say Hi, I'll try my best to get back to you!</p>
             </div>
             <div className='w-full mx-auto mt-10'>
                 <div className='flex items-center justify-center'>

@@ -6,9 +6,9 @@ const skills = ['c', 'cpp', 'javascript', 'python', 'solidity', 'react', 'redux'
 const Skills = () => {
     return (
         <div>
-            <div className='grid grid-cols-3 sm:grid-cols-6 lg:grid-cols-10 gap-y-4'>
+            <div className='grid grid-cols-3 sm:grid-cols-6 lg:grid-cols-10 gap-y-4 gap-x-2'>
                 {skills.map((skill) => (
-                    <Image className='rounded-xl cursor-pointer hover:scale-105 transition-all duration-200 ease-in-out' src={`/images/skills/${skill}.jpg`} width={100} height={100} />    
+                    <Image className='rounded-xl cursor-pointer hover:scale-105 transition-all duration-200 ease-in-out' src={`/images/skills/${skill}.jpg`} width={90} height={90} />    
                 ))}
             </div>
         </div>

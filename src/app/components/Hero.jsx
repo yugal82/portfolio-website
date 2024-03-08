@@ -19,7 +19,7 @@ const Hero = () => {
                                 1000,
                                 'Web3/Blockchain Developer',
                                 1000,
-                                'Machine Learning Engieer',
+                                'ML Engieer',
                                 1000,
                                 'AI Enthusiast',
                                 1000,
