@@ -39,8 +39,8 @@ const Certifications = () => {
     return (
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
             {
-                certificates.map((certificate) => (
-                    <a href={certificate?.link} target='_blank' rel='noreferrer' className='cursor-pointer hover:scale-105 transition-all duration-200 ease-in-out bg-[#282828] hover:bg-[#383838]  rounded-xl'>
+                certificates.map((certificate, index) => (
+                    <a key={index} href={certificate?.link} target='_blank' rel='noreferrer' className='cursor-pointer hover:scale-105 transition-all duration-200 ease-in-out bg-[#282828] hover:bg-[#383838]  rounded-xl'>
                         <div className='p-2'>
                             <Image className='w-full max-h-48 rounded-xl' src={certificate?.image} width={400} height={0} />
                             <p className='my-2 pl-2 text-base font-semibold'>{certificate?.name}</p>
