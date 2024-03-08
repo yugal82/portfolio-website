@@ -49,7 +49,7 @@ const projectsDetails = [
 
 const Projects = () => {
     return (
-        <div className='container mx-auto px-12 py-4 mt-12'>
+        <div id='projects' className='container mx-auto px-12 py-4 mt-12'>
             <div>
                 <h2 className='text-white text-4xl font-bold'>Projects</h2>
             </div>

@@ -18,12 +18,12 @@ const ProjectCard = ({ project, skills }) => {
                 <span className='block py-1 text-lg text-[#adb7b3] font-semibold'>{project?.name}</span>
                 <div className='text-[#adb7b3] mt-2'>
                     {
-                        project?.githubLink && <a href={project?.githubLink}>
+                        project?.githubLink && <a href={project?.githubLink} target='_blank' rel='noreferrer'>
                             <span className='hover:text-white py-2 px-3 bg-[#282828] hover:bg-[#383838] cursor-pointer rounded-xl font-semibold mr-2'>Github</span>
                         </a>
                     }
                     {
-                        project?.demoLink && <a href={project?.demoLink}>
+                        project?.demoLink && <a href={project?.demoLink} target='_blank' rel='noreferrer'>
                             <span className='hover:text-white py-2 px-3 bg-[#282828] hover:bg-[#383838] cursor-pointer rounded-xl font-semibold'>Live link</span>
                         </a>
                     }
