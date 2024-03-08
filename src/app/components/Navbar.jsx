@@ -8,12 +8,13 @@ const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <nav className='w-full bg-[#121212] fixed top-0 left-0 right-0 z-10 bg-opacity-90' >
-            <div id='navbar' className='w-full px-12 py-6 hidden sm:flex items-center justify-evenly'>
-                <Link href='#about' className='text-xl font-semibold text-gray-400 hover:text-white transition-all duration-200 ease-in-out hover:scale-105'>About</Link>
-                <Link href='#experience' className='text-xl font-semibold text-gray-400 hover:text-white transition-all duration-200 ease-in-out hover:scale-105'>Experience</Link>
-                <Link href='#projects' className='text-xl font-semibold text-gray-400 hover:text-white transition-all duration-200 ease-in-out hover:scale-105'>Projects</Link>
-                <Link href='#contact' className='text-xl font-semibold text-gray-400 hover:text-white transition-all duration-200 ease-in-out hover:scale-105'>Contact</Link>
+        <nav className='w-full flex items-center justify-between bg-[#121212] fixed top-0 left-0 right-0 z-10 bg-opacity-90 px-8' >
+            <div className='hidden md:flex text-xl font-semibold text-gray-400 hover:text-white transition-all duration-200 ease-in-out hover:scale-105 cursor-pointer'>~Yugal/Khanter~</div>
+            <div id='navbar' className='w-full px-12 py-6 hidden sm:flex items-center justify-end'>
+                <Link href='#about' className='text-lg font-semibold text-gray-400 hover:text-white transition-all duration-200 ease-in-out hover:scale-105 mx-3'>About</Link>
+                <Link href='#experience' className='text-lg font-semibold text-gray-400 hover:text-white transition-all duration-200 ease-in-out hover:scale-105 mx-3'>Experience</Link>
+                <Link href='#projects' className='text-lg font-semibold text-gray-400 hover:text-white transition-all duration-200 ease-in-out hover:scale-105 mx-3'>Projects</Link>
+                <Link href='#contact' className='text-lg font-semibold text-gray-400 hover:text-white transition-all duration-200 ease-in-out hover:scale-105 ml-3'>Contact</Link>
             </div>
 
             {/* mobile nav menu */}
@@ -30,6 +31,7 @@ const Navbar = () => {
             </div>
             {
                 isMenuOpen && <div className='text-white mt-24 w-full h-screen'>
+                    <div className='text-4xl text-center mb-8 font-semibold transition-all duration-200 ease-in-out hover:scale-105 cursor-pointer text-transparent bg-clip-text bg-gradient-to-r from-[#09A6F3] via-[#0B74EA] to-[#0D41E1]'>~Yugal/Khanter~</div>
                     <p className='text-4xl text-center py-4 font-semibold'><Link href='#about'>About</Link></p>
                     <p className='text-4xl text-center py-4 font-semibold'><Link href='#experience'>Experience</Link></p>
                     <p className='text-4xl text-center py-4 font-semibold'><Link href='#projects'>Projects</Link></p>

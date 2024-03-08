@@ -9,19 +9,18 @@ const Hero = () => {
             <div className='grid grid-cols-1 sm:grid-cols-12'>
                 <div className='col-span-7 place-self-center text-center sm:text-left'>
                     <h1 className='text-white text-4xl sm:text-5xl lg:text-6xl'>
-                        <span className='font-extrabold'>Hello, I am</span>
+                        <span className='font-extrabold'>Hello, I am <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#09A6F3] via-[#0B74EA] to-[#0D41E1]'>Yugal</span></span>
                         <p className='py-6 text-transparent bg-clip-text bg-gradient-to-r from-[#09A6F3] via-[#0B74EA] to-[#0D41E1]'>
+                        <span>I am </span>
                         <TypeAnimation
                             sequence={[
-                                'Yugal',
+                                'a Web Developer',
                                 1000,
-                                'Web Developer',
+                                'a Web3 Developer',
                                 1000,
-                                'Web3/Blockchain Developer',
+                                'an ML Engieer',
                                 1000,
-                                'ML Engieer',
-                                1000,
-                                'AI Enthusiast',
+                                'an AI Enthusiast',
                                 1000,
                             ]}
                             wrapper="span"
