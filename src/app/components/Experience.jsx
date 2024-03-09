@@ -70,7 +70,7 @@ const Wrapper = styled.div`
     flex-direction: column;
     width: 100%;
     max-width: 1350px;
-    padding: 80px 0;
+    padding: 60px 0;
     gap: 12px;
     @media (max-width: 960px) {
         flex-direction: column;
@@ -80,7 +80,6 @@ const Wrapper = styled.div`
 const TimelineSection = styled.div`
     width: 100%;
     max-width: 1000px;
-    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,7 +91,7 @@ const TimelineSection = styled.div`
 
 const Experience = () => {
     return (
-        <Container id="experience">
+        <Container id="experience" className='mt-12 md:mt-24'>
             <Wrapper>
                 <div>
                     <h2 className='text-white text-4xl font-bold'>Experience</h2>

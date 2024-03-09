@@ -11,12 +11,12 @@ const About = () => {
     const getSelectedTabIndex = (index) => setTabIndex(index)
 
     return (
-        <div id='about' className='container mx-auto px-12 py-4 mt-12 md:mt-24'>
+        <div id='about' className='container mx-auto px-12 py-4 mt-6 md:mt-24'>
             <div className='lg:flex items-start justify-center gap-8 py-8 px-4'>
                 <Image src='/images/about-image.jpg' width={500} height={500} className='rounded-2xl w-full' />
-                <div className=''>
-                    <h2 className='text-white text-4xl font-bold mb-2 md:mb-4'>About Me</h2>
-                    <p className='text-base md:text-lg text-[#adb7b3]'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et cumque qui quia tempora libero architecto quasi ut esse recusandae consequuntur cum, dolorum debitis. Possimus accusamus repudiandae laboriosam sunt minima neque.</p>
+                <div className='mt-4 md:mt-0'>
+                    <h2 className='text-white text-4xl font-bold mb-2'>About Me</h2>
+                    <p className='text-base md:text-lg text-[#adb7b3]'>I love to code and bring ideas to life. I am dedicated to exploring the intricate field of deep learning and computer vision. My journey in technology has equipped me with proficiency in a diverse array of tools and languages, including JavaScript, React, Tailwind, NodeJs, ExpressJs, MongoDB, Web3, Ethereum, Ethersjs, Solidity, Python, various machine learning libraries, and Git/Github. Continuously pushing the boundaries, I am committed to expanding my knowledge base and embracing emerging technologies.</p>
                 </div>
             </div>
             <Tabs categories={['Skills', 'Certifications', 'Education']} getSelectedTabIndex={getSelectedTabIndex} />
