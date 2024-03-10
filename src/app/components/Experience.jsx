@@ -99,7 +99,7 @@ const Experience = () => {
                 <TimelineSection>
                     <Timeline>
                         {experiences.map((experience, index) => (
-                            <TimelineItem>
+                            <TimelineItem key={index}>
                                 <TimelineSeparator>
                                     <TimelineDot variant="outlined" color="primary" />
                                     {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#09A6F3' }} />}

@@ -8,7 +8,7 @@ const Skills = () => {
         <div>
             <div className='grid grid-cols-3 sm:grid-cols-6 lg:grid-cols-10 gap-y-4 gap-x-2'>
                 {skills.map((skill) => (
-                    <Image className='rounded-xl cursor-pointer hover:scale-105 transition-all duration-200 ease-in-out' src={`/images/skills/${skill}.jpg`} width={90} height={90} />    
+                    <Image key={skill} className='rounded-xl cursor-pointer hover:scale-105 transition-all duration-200 ease-in-out' src={`/images/skills/${skill}.jpg`} alt={skill} width={90} height={90} />    
                 ))}
             </div>
         </div>
