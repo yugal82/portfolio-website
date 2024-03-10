@@ -1,5 +1,6 @@
 "use client";
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 
@@ -10,7 +11,7 @@ const Hero = () => {
                 <div className='col-span-7 place-self-center text-center sm:text-left'>
                     <h1 className='text-white text-4xl sm:text-5xl lg:text-6xl'>
                         <span className='font-extrabold'>Hello, I am <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#09A6F3] via-[#0B74EA] to-[#0D41E1]'>Yugal</span></span>
-                        <p className='text-2xl font-bold md:text-5xl md:font-semibold py-6 text-transparent bg-clip-text bg-gradient-to-r from-[#09A6F3] via-[#0B74EA] to-[#0D41E1]'>
+                        <p className='text-2xl font-bold md:text-5xl md:font-semibold py-3 md:py-6 text-transparent bg-clip-text bg-gradient-to-r from-[#09A6F3] via-[#0B74EA] to-[#0D41E1]'>
                         <span>I am </span>
                         <TypeAnimation
                             sequence={[
@@ -37,8 +38,10 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <div>
-                <button className='px-6 py-3 w-full sm:w-fit rounded-full mt-6 md:mt-0 bg-white hover:bg-slate-200 text-white font-semibold bg-gradient-to-r from-[#09A6F3] via-[#0B74EA] to-[#0D41E1]'>Download Resume</button>
+            <div className=''>
+                <button className='px-6 py-3 w-full sm:w-fit rounded-full mt-6 md:mt-0 bg-white hover:bg-slate-200 text-white font-semibold bg-gradient-to-r from-[#09A6F3] via-[#0B74EA] to-[#0D41E1]'>
+                    <Link href='https://docs.google.com/document/d/1VZtQIY1TUO5YiXciDyk5j1440NscpXTJ/edit?usp=sharing&ouid=113078072215240214886&rtpof=true&sd=true' target='_blank' rel='noreferrer'>Download Resume</Link>
+                </button>
             </div>
         </div>
     )
