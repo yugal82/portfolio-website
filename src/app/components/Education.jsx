@@ -4,7 +4,7 @@ const Education = () => {
     return (
         <div className='w-full md:flex items-center justify-between'>
             <div>
-                <h2 className='text-xl md:text-3xl font-bold'>Bachelor's of Engineering</h2>
+                <h2 className='text-xl md:text-3xl font-bold'>Bachelor&apos;s of Engineering</h2>
                 <span className='text-base md:text-lg text-[#adb7b3] font-semibold'>Computer Engineering | Honours: Data Science</span>
                 <p className='text-base text-[#adb7b3] font-semibold'>Savitribai Phule Pune University</p>
             </div>
