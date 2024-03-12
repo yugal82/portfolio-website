@@ -34,7 +34,7 @@ const Hero = () => {
                 </div>
                 <div className='col-span-5 place-self-center'>
                     <div className='rounded-full p-2 bg-[#181818] w-[250px] h-[250px] lg:w-[350px] lg:h-[350px]'>
-                        <Image src='/images/Photo.JPG' alt='hero-image' className='rounded-full' width={350} height={350} />
+                        <Image src='/images/Photo.webp' alt='hero-image' className='rounded-full' width={350} height={350} />
                     </div>
                 </div>
             </div>

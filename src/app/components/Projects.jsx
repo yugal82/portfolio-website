@@ -5,42 +5,42 @@ import ProjectCard from './ProjectCard';
 const projectsDetails = [
     {
         name: 'Medical AI - Dataset publication',
-        image: '/images/projects/dataset.jpg',
+        image: '/images/projects/dataset.webp',
         demoLink: 'https://data.mendeley.com/datasets/ywnjr7gnty/1',
         githubLink: '',
         skills: ['Python', 'ML', 'Deep Learning', 'Computer Vision', 'Image registration', 'Data Preprocessing']
     },
     {
         name: 'Dekrypt',
-        image: '/images/projects/dekrypt.jpg',
+        image: '/images/projects/dekrypt.webp',
         demoLink: 'https://dekrypt.vercel.app/',
         githubLink: 'https://github.com/yugal82/BE-Project-Client',
         skills: ['Javascript', 'Solidity', 'ReactJs', 'NodeJS', 'ExpressJS', 'MongoDB', 'Blockchain', 'Ethereum', 'ethers.js', 'TailwindCSS', 'Smart Contracts', 'Postman']
     },
     {
         name: 'BookMyTour',
-        image: '/images/projects/bookmytour.jpg',
+        image: '/images/projects/bookmytour.webp',
         demoLink: 'https://bookmytour.vercel.app/',
         githubLink: 'https://github.com/yugal82/Natuors-MERN',
         skills: ['NodeJS', 'ExpressJS', 'MongoDB', 'Mongoose', 'REST Api', 'JWT Token', 'Pug', 'Postman']
     },
     {
         name: 'House price prediction using ML',
-        image: '/images/projects/house-prediction.jpg',
+        image: '/images/projects/house-prediction.webp',
         demoLink: '',
         githubLink: 'https://github.com/yugal82/Machine-Learning/tree/master/Projects/Project-1',
         skills: ['Python', 'ML', 'Regression', 'Pandas', 'Matplotlib', 'Scikit-Learn']
     },
     {
         name: 'Cryptopedia',
-        image: '/images/projects/cryptopedia.jpg',
+        image: '/images/projects/cryptopedia.webp',
         demoLink: 'https://cryptopeedia.netlify.app/',
         githubLink: 'https://github.com/yugal82/Crypto-Currency-Tracker',
         skills: ['Javascript', 'ReactJs', 'Material UI', 'CoinGecko API', 'Axios']
     },
     {
         name: 'Krypto Vault',
-        image: '/images/projects/krypto-vault.jpg',
+        image: '/images/projects/krypto-vault.webp',
         demoLink: '',
         githubLink: 'https://github.com/yugal82/Blockchain-App',
         skills: ['Javascript', 'Solidity', 'ReactJs', 'Blockchain', 'Ethereum', 'ethers.js', 'TailwindCSS', 'Smart Contracts']

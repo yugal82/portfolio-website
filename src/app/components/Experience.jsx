@@ -12,7 +12,7 @@ import ExperienceCard from './ExperienceCard';
 const experiences = [
     {
         id: 0,
-        img: "/images/experience/viit-logo.jpg",
+        img: "/images/experience/viit-logo.webp",
         role: "Research Intern",
         company: "Vishwakarma Institute of Information Technology",
         date: "Sept 2023 - Present",
@@ -31,7 +31,7 @@ const experiences = [
     },
     {
         id: 1,
-        img: "/images/experience/pointSix-logo.jpg",
+        img: "/images/experience/pointSix-logo.webp",
         role: "Software Developer Intern",
         company: "Pointsix Labs",
         date: "Sept 2022 - May 2023",
