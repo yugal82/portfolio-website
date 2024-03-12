@@ -30,7 +30,7 @@ const Hero = () => {
                         />
                         </p>
                     </h1>
-                    <p className='text-[#adb7b3] text-base sm:text-lg lg:text-xl mb-6'>Passionate about machine learning, deep learning, and software development and creating meaningful experiences. Constantly learning, coding, and pushing the boundaries of what is possible.</p>
+                    <p className='text-[#adb7b3] text-base sm:text-lg lg:text-xl mb-6'>Based out of Pune, Maharashtra, India, I am passionate about machine learning, deep learning, and software development and creating meaningful experiences. Constantly learning, coding, and pushing the boundaries of what is possible.</p>
                 </div>
                 <div className='col-span-5 place-self-center'>
                     <div className='rounded-full p-2 bg-[#181818] w-[250px] h-[250px] lg:w-[350px] lg:h-[350px]'>
