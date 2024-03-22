@@ -4,6 +4,20 @@ import ProjectCard from './ProjectCard';
 
 const projectsDetails = [
     {
+        name: "New York Taxi Fare prediction",
+        image: "/images/projects/nyc-taxi.webp",
+        demoLink: "",
+        githubLink: "https://github.com/yugal82/Machine-Learning/blob/master/Projects/NYC_Taxi_fare_prediction.ipynb",
+        skills: ["Python", "Pandas", "Numpy", "Sklearn", "Fetaure Engineering", "Random Forest"]
+    },
+    {
+        name: "Potato Disease Classification",
+        image: "/images/projects/potato-disease.webp",
+        demoLink: "",
+        githubLink: "https://github.com/yugal82/Deep-Learning/tree/master/Project/Potato-Disease",
+        skills: ["Python", "Pandas", "Numpy", "Tensorflow", "Keras", "CNN", "Matplotlib", "Deep learning"]
+    },
+    {
         name: 'Medical AI - Dataset publication',
         image: '/images/projects/dataset.webp',
         demoLink: 'https://data.mendeley.com/datasets/ywnjr7gnty/1',
