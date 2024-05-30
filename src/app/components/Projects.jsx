@@ -4,6 +4,13 @@ import ProjectCard from './ProjectCard';
 
 const projectsDetails = [
     {
+        name: "Ecommerce App",
+        image: "/images/projects/ecommerce-app.webp",
+        demoLink: "https://ecommerce-clothing-ui.vercel.app",
+        githubLink: "https://github.com/yugal82/ecommerce-backend",
+        skills: ["ReactJs", "Redux", "NodeJS", "ExpressJS", "MongoDB", "PassportJS", "Tailwind CSS", "Postman"]
+    },
+    {
         name: "New York Taxi Fare prediction",
         image: "/images/projects/nyc-taxi.webp",
         demoLink: "",
