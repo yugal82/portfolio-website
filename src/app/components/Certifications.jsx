@@ -3,6 +3,11 @@ import React from 'react'
 
 const certificates = [
     {
+        name: 'Generative AI with Langchain and Huggingface',
+        image: '/images/certificates/Gen_AI_certificate.webp',
+        link: 'https://drive.google.com/file/d/1wGyYgdKM7unfhpETgHo1t7UshM1CEB7q/view?usp=sharing'
+    },
+    {
         name: 'Coursera Machine Learning',
         image: '/images/certificates/Coursera-Machine-Learning.webp',
         link: 'https://drive.google.com/file/d/1TVdohbThVQLj8UP8z4xsualTMLpjuJyd/view?usp=sharing'

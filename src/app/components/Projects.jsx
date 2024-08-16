@@ -4,6 +4,13 @@ import ProjectCard from './ProjectCard';
 
 const projectsDetails = [
     {
+        name: "YouTube Video Summarizer",
+        image: "/images/projects/youtube-llm.webp",
+        demoLink: "",
+        githubLink: "https://github.com/yugal82/GenAI/blob/master/Text%20Summarization/app.py",
+        skills: ["Python", "Langchain", "LLM", "Groq", "Gemma2b", "Text Summarization"]
+    },
+    {
         name: "Ecommerce App",
         image: "/images/projects/ecommerce-app.webp",
         demoLink: "https://ecommerce-clothing-ui.vercel.app",

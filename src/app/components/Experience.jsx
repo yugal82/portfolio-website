@@ -15,7 +15,7 @@ const experiences = [
         img: "/images/experience/viit-logo.webp",
         role: "Research Intern",
         company: "Vishwakarma Institute of Information Technology",
-        date: "Sept 2023 - Present",
+        date: "Sept 2023 - Feb 2024",
         desc: "Working on the applications of Deep Learning to auto-design Patient Specific Implants (PSI) using Generative Adversarial Networks (GANs) on MUG500+(B) Dataset. Under the guidance of Dr. Parikshit Mahalle.",
         skills: [
             "Python",
