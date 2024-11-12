@@ -13,7 +13,7 @@ const projectsDetails = [
     {
         name: "Ecommerce App",
         image: "/images/projects/ecommerce-app.webp",
-        demoLink: "https://ecommerce-clothing-ui.vercel.app",
+        demoLink: "https://fashionfusion-ui.vercel.app/",
         githubLink: "https://github.com/yugal82/ecommerce-backend",
         skills: ["ReactJs", "Redux", "NodeJS", "ExpressJS", "MongoDB", "PassportJS", "Tailwind CSS", "Postman"]
     },
@@ -52,13 +52,13 @@ const projectsDetails = [
         githubLink: 'https://github.com/yugal82/Natuors-MERN',
         skills: ['NodeJS', 'ExpressJS', 'MongoDB', 'Mongoose', 'REST Api', 'JWT Token', 'Pug', 'Postman']
     },
-    {
-        name: 'House price prediction using ML',
-        image: '/images/projects/house-prediction.webp',
-        demoLink: '',
-        githubLink: 'https://github.com/yugal82/Machine-Learning/tree/master/Projects/Project-1',
-        skills: ['Python', 'ML', 'Regression', 'Pandas', 'Matplotlib', 'Scikit-Learn']
-    },
+    // {
+    //     name: 'House price prediction using ML',
+    //     image: '/images/projects/house-prediction.webp',
+    //     demoLink: '',
+    //     githubLink: 'https://github.com/yugal82/Machine-Learning/tree/master/Projects/Project-1',
+    //     skills: ['Python', 'ML', 'Regression', 'Pandas', 'Matplotlib', 'Scikit-Learn']
+    // },
     {
         name: 'Cryptopedia',
         image: '/images/projects/cryptopedia.webp',

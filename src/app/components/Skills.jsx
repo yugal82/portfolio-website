@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react'
 
-const skills = ['c.svg', 'c++.svg', 'javascript.svg', 'python.svg', 'solidity.svg', 'react.svg', 'redux.svg', 'nodejs.svg', 'express.webp', 'mongodb.svg', 'pandas.svg', 'numpy.svg', 'scikit.webp', 'keras.webp', 'tensorflow.svg', 'pytorch.svg', 'ethereum.svg', 'tailwindcss.svg', 'html.svg', 'css.svg', 'ethers.webp', 'git.svg', 'github.svg', 'postman.svg']
+const skills = ['c.svg', 'c++.svg', 'javascript.svg', 'python.svg', 'java.svg', 'solidity.svg', 'react.svg', 'redux.svg', 'nodejs.svg', 'express.webp', 'mongodb.svg', 'pandas.svg', 'numpy.svg', 'scikit.webp', 'keras.webp', 'tensorflow.svg', 'pytorch.svg', 'ethereum.svg', 'tailwindcss.svg', 'html.svg', 'css.svg', 'ethers.webp', 'git.svg', 'github.svg', 'postman.svg']
 
 const Skills = () => {
     return (
