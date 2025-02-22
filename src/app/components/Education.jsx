@@ -10,8 +10,8 @@ const Education = () => {
                 <p className='text-base text-[#adb7b3] font-semibold'>University of Southern California, Los Angeles</p>
             </div>
             <div className=' text-[#adb7b3] font-normal md:font-semibold'>
-                <span className='block'>Aug 2024 - May 2026</span>
-                <span className='block w-full md:text-right'>GPA: --/4</span>
+                <span className='block'>Expected May 2026</span>
+                {/* <span className='block w-full md:text-right'>GPA: --/4</span> */}
             </div>
         </div>
         <div className='w-full md:flex items-center justify-between my-4'>
@@ -21,8 +21,8 @@ const Education = () => {
                 <p className='text-base text-[#adb7b3] font-semibold'>Savitribai Phule Pune University</p>
             </div>
             <div className=' text-[#adb7b3] font-normal md:font-semibold'>
-                <span className='block'>Jan 2021 - May 2024</span>
-                <span className='block w-full md:text-right'>CGPA: 9.05/10</span>
+                <span className='block'>Jun 2020 - May 2024</span>
+                {/* <span className='block w-full md:text-right'>CGPA: 9.05/10</span> */}
             </div>
         </div>
         </>

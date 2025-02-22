@@ -16,7 +16,7 @@ const Contact = () => {
                     <Link href='mailto:yugalkhanter82@gmail.com' target='_blank' rel='noreferrer'>
                         <TfiEmail className='w-10 h-10 cursor-pointer hover:scale-110 transition-all duration-300 ease-in-out mx-2' />
                     </Link>
-                    <Link href='https://www.linkedin.com/in/yugal-khanter-7499621bb/' target='_blank' rel='noreferrer'>
+                    <Link href='https://www.linkedin.com/in/yugalkhanter/' target='_blank' rel='noreferrer'>
                         <FaLinkedin className='w-10 h-10 cursor-pointer hover:scale-110 transition-all duration-300 ease-in-out mx-2' />
                     </Link>
                     <Link href='https://twitter.com/KhanterYugal' target='_blank' rel='noreferrer' >

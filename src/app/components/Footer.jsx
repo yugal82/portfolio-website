@@ -11,7 +11,7 @@ const Footer = () => {
         <Link href='#projects' className='text-lg font-medium text-gray-400 hover:text-white transition-all duration-200 ease-in-out hover:scale-105 mx-2'>Projects</Link>
         <Link href='#contact' className='text-lg font-medium text-gray-400 hover:text-white transition-all duration-200 ease-in-out hover:scale-105 mx-2'>Contact</Link>
       </div>
-      <div className='w-full py-2 text-center text-sm font-semibold'>	&#169; 2024 Yugal Khanter | All rights reserved</div>
+      <div className='w-full py-2 text-center text-sm font-semibold'>	&#169; 2025 Yugal Khanter | All rights reserved</div>
     </div>
   )
 }
