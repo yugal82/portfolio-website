@@ -12,11 +12,29 @@ import ExperienceCard from './ExperienceCard';
 const experiences = [
     {
         id: 0,
+        img: "/images/experience/rlb-logo.webp",
+        role: "Software Engineer Intern",
+        company: "Rider Levett Bucknall Ltd",
+        date: "May 2025 - Aug 2025",
+        desc: "I developed automation tools to streamline construction document analysis and cost estimation workflows, cutting 5+ hours of manual effort per project. This included automated PDF processing, an intelligent revision tracking system for 1,800+ page specifications, and performance optimization that reduced processing time by 80% (40 minutes to 8 minutes). I deployed these tools on Microsoft Azure with FastAPI, eliminating manual bottlenecks. In parallel, I am building an end-to-end ML pipeline using a Local Classifier per Parent Node (LCPN) to classify scope items into CSI codes, improving F1 accuracy from 84.19% to 92.36% and targeting a 6+ hour reduction per cost estimate. Additionally, I developed a lightweight Python wrapper for parsing PDFs and Excel files, saving 3+ hours in document preparation.",
+        skills: [
+            "Python",
+            "LLMs",
+            "Machine Learning",
+            "AuzreOpenAI",
+            "Microsoft Azure",
+            "Hierarchical Classification",
+            "Local Classifier per Parent Node (LCPN)",
+            "FastAPI"
+        ]
+    },
+    {
+        id: 1,
         img: "/images/experience/usc-logo.webp",
-        role: "Graduate Student Researcher",
+        role: "Graduate Student Researcher [Paper accepted at EMNLP Findings 2025 (acceptace rate: 17%)]",
         company: "University of Southern California",
-        date: "Oct 2024 - Present",
-        desc: "Currently, working on CulturalPersonas, a research project focused on developing a culturally grounded benchmark for evaluating personality representations in large language models (LLMs). This work addresses the Western bias in traditional personality assessments by leveraging Retrieval-Augmented Generation (RAG) and human validation to create scenario-based, culture-specific evaluations across diverse global contexts. Through this research, I aim to improve AI fairness, cultural adaptability, and personalized AI interactions for a more inclusive and representative AI landscape.",
+        date: "Oct 2024 - May 2025",
+        desc: "Worked on CulturalPersonas, a research project focused on developing a culturally grounded benchmark for evaluating personality representations in large language models (LLMs). This work addresses the Western bias in traditional personality assessments by leveraging Retrieval-Augmented Generation (RAG) and human validation to create scenario-based, culture-specific evaluations across diverse global contexts. Through this research, I aim to improve AI fairness, cultural adaptability, and personalized AI interactions for a more inclusive and representative AI landscape.",
         skills: [
             "Python",
             "Generative AI",
@@ -28,12 +46,12 @@ const experiences = [
         ]
     },
     {
-        id: 1,
+        id: 2,
         img: "/images/experience/viit-logo.webp",
         role: "Research Intern",
         company: "Vishwakarma Institute of Information Technology",
         date: "Sep 2023 - Feb 2024",
-        desc: "Working on the applications of Deep Learning to auto-design Patient Specific Implants (PSI) using Generative Adversarial Networks (GANs) on MUG500+(B) Dataset. Under the guidance of Dr. Parikshit Mahalle.",
+        desc: "Worked on the applications of Deep Learning to auto-design Patient Specific Implants (PSI) using Generative Adversarial Networks (GANs) on MUG500+(B) Dataset. Under the guidance of Dr. Parikshit Mahalle.",
         skills: [
             "Python",
             "Keras",
@@ -47,7 +65,7 @@ const experiences = [
         ]
     },
     {
-        id: 2,
+        id: 3,
         img: "/images/experience/pointSix-logo.webp",
         role: "Software Developer Intern",
         company: "Pointsix Labs",

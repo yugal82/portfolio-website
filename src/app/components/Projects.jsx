@@ -4,6 +4,13 @@ import ProjectCard from './ProjectCard';
 
 const projectsDetails = [
     {
+        name: "Electric Stadium",
+        image: "/images/projects/electric-stadium.webp",
+        demoLink: "",
+        githubLink: "https://github.com/yugal82/sports-screening-server",
+        skills: ["NodeJS", "ExpressJS", "Redis", "MongoDB", "ReactJs", "JWT Auth", "React Redux", "Postman", "Stripe"]
+    },
+    {
         name: "YouTube Video Summarizer",
         image: "/images/projects/youtube-llm.webp",
         demoLink: "",
@@ -15,7 +22,7 @@ const projectsDetails = [
         image: "/images/projects/ecommerce-app.webp",
         demoLink: "https://fashionfusion-ui.vercel.app/",
         githubLink: "https://github.com/yugal82/ecommerce-backend",
-        skills: ["ReactJs", "Redux", "NodeJS", "ExpressJS", "MongoDB", "PassportJS", "Tailwind CSS", "Postman"]
+        skills: ["ReactJs", "Redux", "NodeJS", "ExpressJS", "MongoDB", "PassportJS", "Tailwind CSS", "Postman", "Razorpay"]
     },
     {
         name: "New York Taxi Fare prediction",
@@ -66,13 +73,13 @@ const projectsDetails = [
         githubLink: 'https://github.com/yugal82/Crypto-Currency-Tracker',
         skills: ['Javascript', 'ReactJs', 'Material UI', 'CoinGecko API', 'Axios']
     },
-    {
-        name: 'Krypto Vault',
-        image: '/images/projects/krypto-vault.webp',
-        demoLink: '',
-        githubLink: 'https://github.com/yugal82/Blockchain-App',
-        skills: ['Javascript', 'Solidity', 'ReactJs', 'Blockchain', 'Ethereum', 'ethers.js', 'TailwindCSS', 'Smart Contracts']
-    }
+    // {
+    //     name: 'Krypto Vault',
+    //     image: '/images/projects/krypto-vault.webp',
+    //     demoLink: '',
+    //     githubLink: 'https://github.com/yugal82/Blockchain-App',
+    //     skills: ['Javascript', 'Solidity', 'ReactJs', 'Blockchain', 'Ethereum', 'ethers.js', 'TailwindCSS', 'Smart Contracts']
+    // }
 ]
 
 const Projects = () => {
